@@ -5,40 +5,50 @@
 
 @font-face{
   font-family: "Free Mono";
-  src: url(/usr/share/fonts/truetype/freefont/FreeMonoBold.ttf);
+  src: url(/usr/share/fonts/truetype/freefont/FreeMono.ttf);
 }
 
 .header  {
   font-family: 'Free Mono', serif;
   background: papayawhip;
+  font-weight:600;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  /*justify-content: center;*/
   align-items: center;
-  padding: 2%;
-  padding-left: 1%;
-  padding-right: 4%;
+  padding: 1% 2% 1% 2%;
+  /*padding-left: 1%;
+  padding-right: 4%;*/
   margin: 1%;
 }
 
 .logo {
-  font-size: 48px;
+  font-size: 5vw;
   font-weight:900;
   color: tomato;
   background-color: white;
-  padding: 4px 32px;
+  padding: 1vw 3vw 1vw 3vw;
+  margin-left: 12%;
+  margin-right: 12%;
+  /*padding: 4px 32px;*/
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   display: flex;
-  gap: 7%;
+  /*margin-left: 2%;
+  margin-right: 2%;
+  /*gap: 7%;*/
+  /*justify-self: right;
+  justify-items: right;*/
 }
 
 a {
-  font-size: 22px;
+  font-size: 2.5vw;
   background: white;
-  padding: 8px;
+  padding: 1vw;
+  margin: 1vw;
   /*padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
@@ -46,4 +56,12 @@ a {
 
 a:visited{
   color: blue;
+}
+
+/*.left-links{
+  margin-right: 10vw;
+}
+
+.right-links{
+  margin-left: 10vw;*/
 }
