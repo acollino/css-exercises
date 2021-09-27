@@ -13,55 +13,37 @@
   background: papayawhip;
   font-weight:600;
   display: flex;
-  justify-content: space-evenly;
-  /*justify-content: center;*/
+  justify-content: left;
   align-items: center;
-  padding: 1% 2% 1% 2%;
-  /*padding-left: 1%;
-  padding-right: 4%;*/
-  margin: 1%;
+  padding: 10px 0px 10px 0px;
+  margin: 10px;
 }
 
 .logo {
-  font-size: 5vw;
+  font-size: 50px;
   font-weight:900;
   color: tomato;
   background-color: white;
-  padding: 1vw 3vw 1vw 3vw;
-  margin-left: 12%;
-  margin-right: 12%;
-  /*padding: 4px 32px;*/
+  padding: 10px 30px 10px 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   display: flex;
-  /*margin-left: 2%;
-  margin-right: 2%;
-  /*gap: 7%;*/
-  /*justify-self: right;
-  justify-items: right;*/
 }
 
 a {
-  font-size: 2.5vw;
+  font-size: 20px;
   background: white;
-  padding: 1vw;
-  margin: 1vw;
-  /*padding: 8px;
+  padding: 10px;
+  margin: 10px;
   /* this removes the line under the links */
   text-decoration: none;
 }
 
 a:visited{
   color: blue;
-}
-
-/*.left-links{
-  margin-right: 10vw;
-}
-
-.right-links{
-  margin-left: 10vw;*/
 }
